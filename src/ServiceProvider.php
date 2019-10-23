@@ -3,9 +3,9 @@
 namespace Gmlo\DataTable;
 
 use Gmlo\DataTable\Services\DataTable;
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as SupportServiceProvider;
 
-class DataTableServiceProvider extends ServiceProvider {
+class ServiceProvider extends SupportServiceProvider {
     /**
      * Indicates if loading of the provider is deferred.
      *
