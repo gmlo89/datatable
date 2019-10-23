@@ -1,0 +1,24 @@
+{
+    "name": "gmlo89/cfdi",
+    "description": "DataTable / Laravel",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["Laravel", "DataTable", "Vuetify"],
+    "authors": [
+        {
+            "name": "Giovanni Lopez",
+            "email": "gmlo89@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gmlo\\DataTable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gmlo\\CFDI\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "dev"
+}
