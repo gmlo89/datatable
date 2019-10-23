@@ -21,6 +21,12 @@ class Products extends Model
 ```php
 $result = Products::search()->orderBy('name')->get();
 ```
+You can optionally send the parameters:
+```php
+$limit = 20; // Number of items to take. Default: 15.
+$query_input = 'filter'; // Name of the field sent by the request to search. Default: 'query'
+$result = Products::search($limit, $query_input)->orderBy('name')->get();
+```
 
 ## DataTable
 VueJs DataTable for Laravel 6
