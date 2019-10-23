@@ -125,7 +125,7 @@ class DataTable {
             {
                 if( isset($item->{$column['field']}) )
                 {
-                    $item->{$column['field']} = $column['callback']($item->{$column['field']});
+                    $item->{$column['field']} = $column['callback']($item->{$column['field']}, $item);
                 }
             }
             return $item;
