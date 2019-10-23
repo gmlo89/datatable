@@ -1,5 +1,28 @@
-# DataTable
+# DataTable & Searchable Trait
 
+## Searchable Trait
+
+Add the trait to your model and the attribute "searcheable" with the fields to search.
+
+```php
+<?php
+namespace App;
+use Illuminate\Database\Eloquent\Model;
+use Gmlo\DataTable\Traits\Searchable;
+
+class Products extends Model
+{
+    use Searchable;
+    protected $searchables = ['name', 'code'];
+}
+```
+
+#### Use 
+```php
+$result = Products::search()->orderBy('name')->get();
+```
+
+## DataTable
 VueJs DataTable for Laravel 6
 
 ### Installation

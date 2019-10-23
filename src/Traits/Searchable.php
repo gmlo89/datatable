@@ -3,7 +3,7 @@
 namespace Gmlo\DataTable\Traits;
 
 
-trait Search
+trait Searchable
 {
     
     public function scopeSearch($query, $limit = 15, $query_input = 'query')
