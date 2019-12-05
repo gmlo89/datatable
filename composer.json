@@ -20,6 +20,8 @@
             
         }
     },
+    "require": {
+    },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {

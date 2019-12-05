@@ -1,10 +1,15 @@
+
+![GitHub All Releases](https://img.shields.io/github/downloads/gmlo89/datatable/total)
+
+
+
 # DataTable & Searchable Trait
 
 ### Installation
 
 Run composer
 ```sh
-composer require gmlo89/datatable
+composer require gmlo89/datatable @dev
 ```
 
 Publish the component to add on your js
